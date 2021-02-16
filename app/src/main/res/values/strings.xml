@@ -2,4 +2,7 @@
     <string name="app_name" translatable="false">ScoreDB</string>
     <string name="search_placeholder">Search…</string>
     <string name="search">Search</string>
+    <string name="search_result_title">Search Result</string>
+    <string name="request_failed">Request failed</string>
+    <string name="no_matching_result">No matching result</string>
 </resources>

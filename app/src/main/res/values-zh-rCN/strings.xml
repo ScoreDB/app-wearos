@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="search_placeholder">搜索...</string>
+    <string name="search_placeholder">搜点什么…</string>
     <string name="search">搜索</string>
+    <string name="search_result_title">搜索结果</string>
+    <string name="request_failed">请求失败</string>
+    <string name="no_matching_result">无符合条件的结果</string>
 </resources>
