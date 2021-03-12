@@ -16,14 +16,15 @@ android {
         targetSdkVersion 30
         versionCode 2
         versionName '0.2.0'
-
+        setProperty 'archivesBaseName', "$applicationId-$versionName"
         buildConfigField 'String', 'SCOREDB_TOKEN', "\"" + scoredbToken + "\""
     }
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            shrinkResources true
         }
     }
 }
