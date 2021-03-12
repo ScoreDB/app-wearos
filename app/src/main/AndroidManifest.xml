@@ -19,12 +19,28 @@
         </activity>
 
         <activity
-            android:name=".SearchResultActivity"
+            android:name=".studentdb.MainActivity"
+            android:label="@string/studentdb">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".studentdb.SearchResultActivity"
             android:label="@string/search_result_title"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".studentdb.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".studentdb.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".roller.MainActivity"
+            android:label="@string/roller_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
         </activity>
 
         <meta-data

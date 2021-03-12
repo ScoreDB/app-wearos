@@ -5,4 +5,6 @@
     <string name="search_result_title">搜索结果</string>
     <string name="request_failed">请求失败</string>
     <string name="no_matching_result">无符合条件的结果</string>
+    <string name="options">选项</string>
+    <string name="generate">生成</string>
 </resources>

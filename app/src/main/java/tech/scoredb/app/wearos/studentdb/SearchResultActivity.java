@@ -1,4 +1,4 @@
-package tech.scoredb.app.wearos;
+package tech.scoredb.app.wearos.studentdb;
 
 import android.app.Activity;
 import android.content.Context;
@@ -29,6 +29,9 @@ import java.net.URLEncoder;
 import java.util.HashMap;
 import java.util.Map;
 
+import tech.scoredb.app.wearos.BuildConfig;
+import tech.scoredb.app.wearos.R;
+
 public class SearchResultActivity extends Activity {
 
     LinearLayout layout;
@@ -37,13 +40,13 @@ public class SearchResultActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_search_result);
+        setContentView(R.layout.studentdb_activity_search_result);
 
         layout = findViewById(R.id.layout);
         loading = findViewById(R.id.loading);
 
         Intent intent = getIntent();
-        String query = intent.getStringExtra("tech.scoredb.app.wearos.SEARCH_QUERY");
+        String query = intent.getStringExtra("tech.scoredb.app.wearos.studentdb.SEARCH_QUERY");
         if (query == null || query.isEmpty()) {
             NavUtils.navigateUpFromSameTask(this);
         } else {

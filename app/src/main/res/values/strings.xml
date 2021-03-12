@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name" translatable="false">ScoreDB</string>
     <string name="search_placeholder">Search…</string>
@@ -5,4 +6,9 @@
     <string name="search_result_title">Search Result</string>
     <string name="request_failed">Request failed</string>
     <string name="no_matching_result">No matching result</string>
+    <string name="studentdb" translatable="false">StudentDB</string>
+    <string name="roller_title" translatable="false">Roller</string>
+    <string name="options">Options</string>
+    <string name="generate">Generate</string>
+    <string name="question_mark" translatable="false">\?</string>
 </resources>
